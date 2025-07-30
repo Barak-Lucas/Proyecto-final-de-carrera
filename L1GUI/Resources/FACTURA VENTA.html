@@ -1,0 +1,117 @@
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Online HTML Editor</title>
+        <style>
+            table.border {
+                border-collapse: collapse;
+            }
+    
+            table.border th, table.border td {
+                padding: 5px;
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <table border="1" style="width:100%">
+            <tr>
+                <td style="width:20%">
+                    <table style="width:100%">
+                        <tr><td align="center"></td></tr>
+                        <tr><td align="center"></td></tr>
+                        <tr><td align="center"></td></tr>
+                    </table>
+                </td>
+                <td style="width:60%" align="center">
+                    <table>
+                        <tr><td align="center">COSTOYA PROPIEDADES</td></tr>
+                        <tr><td align="center">Mendoza 4407 Costa Azul, Partido de la Costa</td></tr>
+                        <tr><td align="center">WhatsApp: +54 9 (2257) 51-1197</td></tr>
+                    </table>
+                </td>
+                <td style="width:20%">
+                    <table class="border" style="width:100%">
+                        <tr><td align="center">VENTA</td></tr>
+                        <tr><td align="center">Factura</td></tr>
+                        <tr><td align="center">N°: @IDFACTURA</td></tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" height="20"></td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <table style="width:100%">
+                        <tr><td align="center" style="width:100%">FACTURA AL @COMPRADORVENDEDOR</td></tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <table class="border" style="width:100%">
+                        <thead style="background-color:#D8D8D8">
+                            <tr>
+                                <th>Nombre completo</th>
+                                <th>Domicilio</th>
+                                <th>DNI</th>
+                                <th>Fecha</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>@NOMBRE</td>
+                                <td>@DOMICILIO</td>
+                                <td>@DNI</td>
+                                <td>@FECHA</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <table class="border" style="width:100%">
+                        <thead style="background-color:#D8D8D8">
+                            <tr>
+                                <th>DETALLES</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td style="height:150px; vertical-align:top;">@DETALLES</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <table class="border" style="width:100%">
+                        <thead style="background-color:#D8D8D8">
+                            <tr>
+                                <th>Valor de venta inmueble (USD)</th>
+                                <th>Comisión inmobiliaria (USD)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td align="right">@VALORINMUEBLEVENDIDO</td>
+                                <td align="right">IMPORTE: @IMPORTE</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td align="right">IVA 21%: @IVA</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td align="right">TOTAL: @TOTAL</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </body>
+    </html>

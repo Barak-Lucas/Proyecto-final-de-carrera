@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\L2BE\L2BE.csproj" />
+    <ProjectReference Include="..\L5DAO\L5DAO.csproj" />
+    <ProjectReference Include="..\ServicioDeEncriptado\ServicioDeEncriptado.csproj" />
+  </ItemGroup>
+
+</Project>
